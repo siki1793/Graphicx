@@ -1,0 +1,5 @@
+all:
+	gcc -c Source/rply.c -lGL -lGLU -lglut
+	g++ Source/Main.cpp Source/View.cpp Source/Model.cpp Source/Controller.cpp Source/PlyReader.cpp rply.o -o output -lGL -lglut -lGLU
+clean:
+	$(RM) output

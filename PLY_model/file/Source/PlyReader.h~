@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<string.h>
+#include<math.h>
+
+static float vertices[35949][5];
+      static  int faces[69453][3];
+      static  float normals[69451][3],v[69451][4];
+      static  int noOfVertices = 35947,noOfFaces = 69451;
+      static  FILE *fp;
+
+class PlyReader{
+    private:
+        
+    public:
+        void ReadFile(char *);
+        int getNoOfFaces();
+        float getVertices(int ,int );
+        int getFaces(int ,int );
+        void getNormal( int );
+        float getNormals(int , int);
+        float getV(int ,int );
+};

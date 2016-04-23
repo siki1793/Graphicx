@@ -1,0 +1,44 @@
+Assignment 2 : 3D RENDERING USING LIGHTING MODELS
+
+Submitted By: 
+
+Name: 	Saikrishna Mundrati.
+Roll: 	MT2015096
+
+Follow the steps :
+
+1. Open terminal( Alt+Ctrl+T on linux ).
+2. Go to the folder where this text file is located.
+3. Run the command "make" without "".
+4. Now in terminal type ./output to run the output file.
+5. You will see the Graphics Window with X,Y,Z axes drawn on it.
+(NOTE : Z-axis is not visible to you.)
+6. The object will be rendered on the screen.(Light is fixed at (0.75,0.75,0) on the screen)
+7. Now, drag mouse on screen using left mouse button.
+	Rotate according to mouse movement.(TrackBall Rotation)
+8. For rotation along individually axis,use keys:
+		"x"  Rotate along -X-axis.
+		"X"  Rotate along X-axis.	
+		"y"  Rotate along -Y-axis.
+		"Y"  Rotate along Y-axis.	
+		"z"  Rotate along -Z-axis.
+		"Z"  Rotate along Z-axis.	
+9. To translate the object,use keys:
+	"UP" to translate in +ve Y-axis.
+	"DOWN" to translate in -ve Y-axis.
+	"LEFT" to translate in -ve X-axis.
+	"RIGHT" to translate in +ve X-axis.
+10. For zooming/scaling,use keys:
+		"-"  Scale -.(Zoom in)
+		"+"  Scale +.(Zoom out)
+		"c"  Camera movement along -Z-axis.
+		"C"  Camera movement along Z-axis.
+11.output of images are present in image directory
+
+References:
+
+1. Stackoverflow/Stackexchange for different problems while coding.
+2. http://openglut.sourceforge.net/ - The GLUT library help.
+3. https://www.opengl.org/
+4. www.cprogramming.com/tutorial/3d/quaternions.html
+

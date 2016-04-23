@@ -1,0 +1,56 @@
+Assignment 2 : 3D RENDERING USING LIGHTING MODELS
+
+
+Submitted By: 
+
+	Name: 	Kulkarni Sagar Shekhar.
+	Roll: 	MT2014057
+
+
+Follow the steps :
+
+
+1. Open the command prompt (Terminal in Linux).
+2. Go to the folder where this text file is located.
+3. Run the command "make" without "".
+4. The command, if successfully executed, will generate a file named "output".
+5. Run that output file by typing "./output", again without "".
+6. You will see the Graphics Window with X,Y,Z axes drawn on it.
+(NOTE : Z-axis is not visible to you.)
+7. Press keys :
+	"1" for Cube
+	"2" for Cylinder.
+	"3" for Sphere.
+	"4" for Bunny.
+8. The chosen object will be rendered on the screen.
+9. Now, pick 2 points on screen using left mouse button.
+10. You will see the line is drawn on these 2 points.
+11. Now, to translate the object, distance measured in the 2 points is used as a relative measure.For translation, use keys:
+	"UP" to translate in +ve Y-axis.
+	"DOWN" to translate in -ve Y-axis.
+	"LEFT" to translate in -ve X-axis.
+	"RIGHT" to translate in +ve X-axis.
+12. For zooming in/out, +/- keys have been used respectively.
+(Note : Scale factor of 1.2 is used for zooming in/out.)
+13. For Rotating the object, press the key "x"/"y"/"z".
+(Note : Object rotates about the given axis by 15 degree each time the key is pressed. Quaternions are used.)
+14. To move the light source press key "m".
+(Note : Light rotates around X-axis).
+15. Displaying bunny : 
+	Press "v" : Per Vertex
+	Press "p" : Per Polygon
+16. Press "l" to move light source along with object.
+13. Use right click mouse button to clear the screen and pick the object again.
+
+
+Limitation:
+
+1. The scale factor is restricted to 0.1 to 12.0.
+2. Translation is restricted, choosing 2 points with long distance puts the object out of the window.
+
+References:
+
+1. Stackoverflow/Stackexchange for different problems while coding.
+2. http://openglut.sourceforge.net/ - The GLUT library help.
+3. https://www.opengl.org/
+4. www.cprogramming.com/tutorial/3d/quaternions.html
