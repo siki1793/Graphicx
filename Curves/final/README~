@@ -1,0 +1,44 @@
+Assignment 1: 2D Rendering
+
+Submitted by:
+
+Name: 		saikrishna mundrathi
+Roll no.:	MT2015096
+
+Steps for output:
+
+1.Open terminal.
+2.Go to the folder where this text file is located.
+3.Run the command "make" without "".
+4.Now in terminal type ./output to run the output file.
+5.You can see the x,y axes on screen.
+6.You can draw the curves(Lagrange interpolating polynomial and Bézier curve) by "left mouse click buttom".
+7.You can Generate the curves,Delete points,Insert points,Rotate, Transulate, Scale, Transulate by picking two points and delete points by following keys and Draw the control polygon.
+	press keys:
+		"1"  Generate curves.
+		"2"  Remove curves.
+		"e"  Delete point.
+		"q"  Insert point.
+		"l"  Rotate left.
+		"r"  Rotate right.
+		"-"  Scale -(Zoom in).
+		"+"  Scale +(Zoom out).
+		"a"  Translate left.
+		"w"  Translate up.
+		"d"  Translate right.
+		"s"  Translate down.
+		"i"  Insert 2 points to translate with difference of points.
+		"t"  Translate the curve with the picked points.
+		"D"  Draw control polygon.
+
+Limitation:
+
+1. if points are picked after rotation , translate , scale and when you resize the window will be not accurate .
+
+References:
+
+1. Stackoverflow/Stackexchange for different problems while coding.
+2. http://openglut.sourceforge.net/ - The GLUT library help.
+3. https://www.opengl.org/
+4. www.cprogramming.com/tutorial/3d/quaternions.html
+
